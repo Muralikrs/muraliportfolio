@@ -132,3 +132,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 });
+
+addEventListener("DOMContentLoaded",()=>{
+  document.getElementById("student-attendance-tracker").addEventListener("click",()=>{
+    window.open("https://muralikrs.github.io/attendance_Tracker/","_blank");
+  })
+
+})
