@@ -132,6 +132,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 });
+document
+    .getElementById("medical-store-stock-billing")
+    .addEventListener("click", function () {
+        window.location.href = "https://muralikrs.github.io/mediaclstore_inventory/";
+    });
 
 addEventListener("DOMContentLoaded",()=>{
   document.getElementById("student-attendance-tracker").addEventListener("click",()=>{
